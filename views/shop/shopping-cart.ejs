@@ -52,8 +52,8 @@
                 ><i class="fa fa-minus-square" aria-hidden="true"></i
               ></a>
             </td>
-            <td>$<%= product.price %></td>
-            <td>$<%= product.totalPrice %></td>
+            <td>₹<%= product.price %></td>
+            <td>₹<%= product.totalPrice %></td>
             <td>
               <a
                 href="/removeAll/<%=product._id%>"
@@ -70,7 +70,7 @@
 <hr>
   <div class="row mt-4 mr-auto">
     <div class="col-md-11 col-sm-12 m-auto">
-      <strong>Total: <%= cart.totalCost %> </strong>
+      <strong>Total: <%= cart.totalCost %>₹ </strong>
     </div>
   </div>
   <div class="row mt-2 mr-auto">

@@ -7,8 +7,6 @@
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "author": "Maryam Aljanabi",
-  "license": "MIT",
   "dependencies": {
     "admin-bro": "^2.9.0",
     "admin-bro-expressjs": "^2.1.1",
@@ -44,5 +42,6 @@
     "slugify": "^1.6.5",
     "stripe": "^8.219.0",
     "styled-components": "^5.3.5"
-  }
+  },
+  "keywords": []
 }

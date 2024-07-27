@@ -1,4 +1,4 @@
-# BestBags
+# BSSBags
 
 ## Table of contents
 
@@ -23,7 +23,7 @@ NOTE: Please read the RUN section before opening an issue.
 
 The application is deployed to Heroku and can be accessed through the following link:
 
-[BestBags on Heroku](https://best-bags.herokuapp.com/)
+[BSSBags on Heroku](https://best-bags.herokuapp.com/)
 
 The website resembles a real store and you can add products to your cart and pay for them. If you want to try the checkout process, you can use the dummy card number provided by stripe for testing which is 4242 4242 4242 4242 with any expiration date, CVC, and zip codes. Please <u><b>DO NOT</b></u> provide real card number and data.
 
@@ -135,24 +135,3 @@ All the models can be found in the models directory created using mongoose.
 - paymentId (String)
 - createdAt (Date)
 - Delivered (Boolean)
-
-## Colors
-
-Below is the color palette used in this application:
-
-- ![#478ba2](https://via.placeholder.com/15/478ba2/000000?text=+) `#478ba2`
-- ![#b9d4db](https://via.placeholder.com/15/b9d4db/000000?text=+) `#b9d4db`
-- ![#e9765b](https://via.placeholder.com/15/e9765b/000000?text=+) `#e9765b`
-- ![#f2a490](https://via.placeholder.com/15/f2a490/000000?text=+) `#f2a490`
-- ![#de5b6d](https://via.placeholder.com/15/de5b6d/000000?text=+) `#de5b6d`
-- ![#18a558](https://via.placeholder.com/15/18a558/000000?text=+) `#18a558`
-- ![#f9f7f4](https://via.placeholder.com/15/f9f7f4/000000?text=+) `#f9f7f4`
-- ![#202020](https://via.placeholder.com/15/202020/000000?text=+) `#202020`
-- ![#474747](https://via.placeholder.com/15/474747/000000?text=+) `#474747`
-
-## License
-
-[![License](https://img.shields.io/:License-MIT-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
-- MIT License
-- Copyright 2020 © [Maryam Aljanabi](https://github.com/maryamaljanabi)

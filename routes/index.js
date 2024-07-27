@@ -210,7 +210,7 @@ router.get("/checkout", middleware.isLoggedIn, async (req, res) => {
 
   const errMsg = req.flash("error")[0];
   res.render("shop/checkout", {
-    total: cart.totalCost,
+    total: Cart.totalCost,
     csrfToken: req.csrfToken(),
     errorMsg,
     pageName: "Checkout",
@@ -225,8 +225,8 @@ router.post("/checkout", middleware.isLoggedIn, async (req, res) => {
   const cart = await Cart.findById(req.session.cart._id);
   stripe.charges.create(
     {
-      amount: cart.totalCost * 100,
-      currency: "usd",
+      amount: cart.totalCost * 1,
+      currency: "inr",
       source: req.body.stripeToken,
       description: "Test charge",
     },
